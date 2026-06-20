@@ -3,17 +3,17 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>在线视频播放</title>
+<link rel="icon" href="data:,">
+<title>视频播放</title>
 <style>
 body{background:#000;display:flex;justify-content:center;margin-top:40px;}
 video{max-width:96%;}
 </style>
 </head>
 <body>
-<!-- 这里替换成你上面拼接好的ghproxy代理视频链接 -->
-<video controls playsinline>
-  <source src="https://ghproxy.cn/https://raw.githubusercontent.com/你的用户名/video-player/main/test.mp4" type="video/mp4">
-  你的浏览器不支持视频播放
+<video controls playsinline preload="auto">
+  <source src="https://ghproxy.cn/https://cdn.jsdelivr.net/gh/3146792871/video-@main/123.mp4" type="video/mp4">
+  视频加载失败：境外CDN网络拦截，建议更换国内网盘方案
 </video>
 </body>
 </html>
